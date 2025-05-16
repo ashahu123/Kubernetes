@@ -1,0 +1,30 @@
+1. What is differnce b/w Docker & Kubernetes?
+Docker is a tool for creating, managing, and running containers.It packages applications with all their dependencies into a single, lightweight container.
+Key Features:
+-Creates and runs containers.
+-Uses Dockerfile to define how a container image is built.
+Kubernetes is a system for managing multiple containers (often across many machines).
+It automates deployment, scaling, and operations of application containers.
+Key Features:
+-Orchestrates (manages) many containers across clusters of servers.
+-Handles auto-scaling, load balancing, and self-healing (restarts crashed containers).
+-Manages container networking and storage.
+
+2. What are the main component of kubernetes?
+kubernetes component into two parts Control & Data Plane.
+Control(Master) Plane: API server,Schedular,Control manager, Cloud control manager, ETCD
+Data(Worker) Plane: Kubelet,Kubeproxy,Container runtime.
+
+a)API server - Expose the k8s API,all components (users, CLI, other components) communicate through it.
+b)Schedular - Respsonible for assigning workloads i.e.Pods
+c)Control manager - Respsonible for ensuring the cluster desired state & perforimg loop operations.
+d)Cloud control manager - Handles ineractions b/w k8s cluster & underlying cloud providers(AWS,GCP)
+e)ETCD - key-value store used to store all cluster data.
+f)Kubelet - Respsonible for pod mgt,health monitroring & inform to master node to take action.
+g)Kubeproxy - N/W component responsilbe for communcation b/q service & pods.
+h)Container runtime - actually runs containers.
+
+3.Diff b/w Docker swarm & K8s.
+4.Diff b/w Docker Conatiner & K8S Pods
+5.What is namespace in K8S?
+
