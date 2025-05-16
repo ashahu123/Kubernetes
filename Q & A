@@ -24,7 +24,20 @@ f)Kubelet - Respsonible for pod mgt,health monitroring & inform to master node t
 g)Kubeproxy - N/W component responsilbe for communcation b/q service & pods.
 h)Container runtime - actually runs containers.
 
-3.Diff b/w Docker swarm & K8s.
-4.Diff b/w Docker Conatiner & K8S Pods
-5.What is namespace in K8S?
+3. Day to day activities on K8S?
+As part of my DevOps engineer role, I am responsible for managing and maintaining Kubernetes clusters for our organization which includes:
+- Application Deployment & Monitoring: Ensuring that applications are properly deployed to Kubernetes clusters and that the cluster and workloads are continuously monitored for any performance or configuration issues.
+- Troubleshooting & Support: Acting as a subject matter expert for Kubernetes, I assist developers in troubleshooting complex issues, such as port configurations, service routing, and internal traffic flow within the cluster.
+- Ticket & Request Handling: Serving as the point of contact for all Kubernetes-related queries across the organization. We manage Jira tickets or service requests, offering guidance or directly resolving technical challenges.
+Through this role, I bridge the gap between infrastructure management and developer enablement, ensuring our Kubernetes environments are stable, secure, and developer-friendly.
+
+4.Diff b/w Docker swarm & K8s.
+5.Diff b/w Docker Conatiner & K8S Pods
+6.What is namespace in K8S?
+7.What is role of Kubeproxy?
+8.Diff types of services in K8S?
+9.Diff b/w Loadbalancer,Nodeport,Cluster?
+10.What is role of Kubelet?
+
+
 
